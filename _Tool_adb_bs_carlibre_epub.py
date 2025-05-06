@@ -11,6 +11,10 @@ android_directory = os.path.join(current_dir, 'android')
 # 預設 UnpackKindleS 路徑（可根據需要修改）
 unpack_kindle_base_path = current_dir  # 預設為當前目錄
 # unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
+
+# 預設 Calibre 書庫位置（可根據需要修改）
+calibre_library_path = os.path.join(os.path.expanduser('~'), 'calibre 書庫')  # 預設為用戶目錄下
+# calibre_library_path = r'D:\Calibre Library'  # 可修改為其他語言的實際路徑
 unpack_kindle_path = os.path.join(unpack_kindle_base_path, 'app', 'UnpackKindleS.exe')
 platform_tools_dir = os.path.join(unpack_kindle_base_path, 'platform-tools')
 
@@ -116,10 +120,9 @@ def remove_books_from_calibre(added_ids):
             print(f"已刪除 .caltrash 資料夾: {caltrash_directory}")
 
 def azw3_to_asin():
-    root_directory = os.path.join(os.path.expanduser('~'), 'calibre 書庫')
     added_ids = add_books_to_calibre(android_directory)
 
-    for dirpath, dirnames, filenames in os.walk(root_directory):
+    for dirpath, dirnames, filenames in os.walk(calibre_library_path):
         dirnames[:] = [d for d in dirnames if not d.startswith('.')]
 
         azw3_files = [f for f in filenames if f.endswith('.azw3')]
