@@ -60,7 +60,7 @@ calibre(不要改安裝位置)，做AZW6 Image Merge和dedrm安裝，已加入ba
 
 SDK Platform Tools放在UnpackKindleS資料夾
 
-UnpackKindleS資料夾目錄下應該是有(全路徑不可以有中文)
+### UnpackKindleS資料夾目錄下要有(全路徑不可以有中文)
 
 UnpackKindleS/app
 
