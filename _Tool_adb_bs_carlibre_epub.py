@@ -114,7 +114,7 @@ def remove_books_from_calibre(added_ids):
     for book_id in added_ids:
         subprocess.run(['calibredb', 'remove', book_id])
         print(f"已刪除書籍 ID: {book_id}")
-        caltrash_directory = os.path.join(os.path.expanduser('~'), 'calibre 書庫', '.caltrash', 'b', book_id)
+        caltrash_directory = os.path.join(calibre_library_path, '.caltrash', 'b', book_id)  # 更新為可變路徑
         if os.path.exists(caltrash_directory):
             shutil.rmtree(caltrash_directory)
             print(f"已刪除 .caltrash 資料夾: {caltrash_directory}")
