@@ -1,4 +1,4 @@
-以GPT4o-mini寫。
+以GPT4o-mini寫，沒有技術量去修bug，一切錯誤問AI。
 
 
 配合[UnpackKindleS](https://github.com/Aeroblast/UnpackKindleS)使用藍疊，而不必打開calibre一鍵出epub
