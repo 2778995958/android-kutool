@@ -1,7 +1,7 @@
 以GPT4o-mini寫。
 
 
-配合[UnpackKindleS](https://github.com/Aeroblast/UnpackKindleS)使用藍疊，而不必打開carlibre一鍵出epub
+配合[UnpackKindleS](https://github.com/Aeroblast/UnpackKindleS)使用藍疊，而不必打開calibre一鍵出epub
 
 結合
 
@@ -16,7 +16,7 @@
 
 2)下載書
 
-3)雙擊_Tool_adb_bs_carlibre_epub.py
+3)雙擊_Tool_adb_bs_calibre_epub.py
 
 4)輸出epub
 
@@ -33,11 +33,11 @@ unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
 
 1)自動找到端口
 
-2)自動加書carlibre
+2)自動加書calibre
 
 3)自動拆成epub(res)
 
-4)自動刪carlibre書庫
+4)自動刪calibre書庫
 
 
 ### 準備的東西
@@ -46,7 +46,7 @@ UnpackKindleS
 
 python
 
-carlibre(不要改安裝位置)，做AZW6 Image Merge和dedrm安裝，已加入backup.ab在裡面
+calibre(不要改安裝位置)，做AZW6 Image Merge和dedrm安裝，已加入backup.ab在裡面
 
 藍疊
 
@@ -58,7 +58,7 @@ UnpackKindleS/app
 
 UnpackKindleS/platform-tools
 
-UnpackKindleS/_Tool_adb_bs_carlibre_epub.py
+UnpackKindleS/_Tool_adb_bs_calibre_epub.py
 
 
 
