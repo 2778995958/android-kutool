@@ -54,7 +54,7 @@ UnpackKindleS
 
 python
 
-calibre(不要改安裝位置)，做AZW6 Image Merge和dedrm安裝，已加入backup.ab在裡面
+calibre，AZW6 Image Merge，dedrm，backup.ab
 
 藍疊
 
