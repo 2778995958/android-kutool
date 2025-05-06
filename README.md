@@ -25,16 +25,16 @@
 
 注意你的calibre暫存檔位置，繁體應是C:\Users\使用者名\calibre 書庫
 
-calibre_library_path = os.path.join(os.path.expanduser('~'), 'calibre 書庫')  # 預設為用戶目錄下
+`calibre_library_path = os.path.join(os.path.expanduser('~'), 'calibre 書庫')`  # 預設為用戶目錄下
 
-calibre_library_path = r'D:\Calibre Library'  # 可修改為其他語言的實際路徑
+`calibre_library_path = r'D:\Calibre Library'`  # 可修改為其他語言的實際路徑
 
 
 如果你的UnpackKindleS放在別地方，可以改位置
 
-unpack_kindle_base_path = current_dir  # 預設為當前目錄
+`unpack_kindle_base_path = current_dir`  # 預設為當前目錄
 
-unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
+`unpack_kindle_base_path = r'E:\UnpackKindleS'`  # 可修改為實際路徑
 
 
 ### 事前是你已經成功過一次，本python用於第二次以後
