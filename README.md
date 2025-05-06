@@ -22,6 +22,14 @@
 
 注意：當你拆完一次後，如果你不刪android資料夾，第二次拆書會重複拆
 
+
+注意你的calibre暫存檔位置，繁體應是C:\Users\使用者名\calibre 書庫
+
+calibre_library_path = os.path.join(os.path.expanduser('~'), 'calibre 書庫')  # 預設為用戶目錄下
+
+calibre_library_path = r'D:\Calibre Library'  # 可修改為其他語言的實際路徑
+
+
 如果你的UnpackKindleS放在別地方，可以改位置
 
 unpack_kindle_base_path = current_dir  # 預設為當前目錄
