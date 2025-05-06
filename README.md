@@ -11,10 +11,14 @@
 
 
 ### 做法
-打開藍疊(不可以有多於一個案例開啟adb，否則找不到端口)
-下載書
-雙擊_Tool_adb_bs_carlibre_epub.py
-輸出epub
+
+1)打開藍疊(不可以有多於一個案例開啟adb，否則找不到端口)
+
+2)下載書
+
+3)雙擊_Tool_adb_bs_carlibre_epub.py
+
+4)輸出epub
 
 注意：當你拆完一次後，如果你不刪android資料夾，第二次拆書會重複拆
 
