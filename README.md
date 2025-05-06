@@ -34,4 +34,4 @@ UnpackKindleS/_Tool_adb_bs_carlibre_epub.py
 
 如果你的UnpackKindleS放在別地方，可以改位置，但SDK Platform Tools請放在裡面
 unpack_kindle_base_path = current_dir  # 預設為當前目錄
-# unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
+unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
