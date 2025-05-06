@@ -10,6 +10,21 @@
 日亚4月23日后新书提取改高清图[教程](https://books.fishhawk.top/forum/6810a15109bd6070772647fc)
 
 
+### 做法
+打開藍疊(不可以有多於一個案例開啟adb，否則找不到端口)
+下載書
+雙擊_Tool_adb_bs_carlibre_epub.py
+輸出epub
+
+注意：當你拆完一次後，如果你不刪android資料夾，第二次拆書會重複拆
+
+如果你的UnpackKindleS放在別地方，可以改位置，但SDK Platform Tools請放在裡面
+
+unpack_kindle_base_path = current_dir  # 預設為當前目錄
+
+unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
+
+
 ### 事前是你已經成功過一次，本python用於第二次以後
 
 1)自動找到端口
@@ -42,16 +57,4 @@ UnpackKindleS/platform-tools
 UnpackKindleS/_Tool_adb_bs_carlibre_epub.py
 
 
-### 做法
-打開藍疊(不可以有多於一個案例開啟adb，否則找不到端口)
-下載書
-雙擊_Tool_adb_bs_carlibre_epub.py
-輸出epub
 
-注意：當你拆完一次後，如果你不刪android資料夾，第二次拆書會重複拆
-
-如果你的UnpackKindleS放在別地方，可以改位置，但SDK Platform Tools請放在裡面
-
-unpack_kindle_base_path = current_dir  # 預設為當前目錄
-
-unpack_kindle_base_path = r'E:\UnpackKindleS'  # 可修改為實際路徑
