@@ -50,7 +50,7 @@ try:
         else:
             # 使用 ADB 連接並拉取文件
             adb_connect_cmd = f'adb connect 127.0.0.1:{port}'
-            adb_pull_cmd = f'adb -s 127.0.0.1:{port} pull /sdcard/Android/data/com.amazon.kindle/files/. {android_directory}'
+            adb_pull_cmd = f'adb -s 127.0.0.1:{port} pull /sdcard/Android/data/com.amazon.kindle/files/. "{android_directory}"'
 
             os.chdir(platform_tools_dir)
 
